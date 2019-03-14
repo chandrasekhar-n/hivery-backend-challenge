@@ -12,7 +12,7 @@ New API's must provide these end points:
 - Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common which have brown eyes and are still alive.
 - Given 1 people, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: `{"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}`
 
-##Technical stack
+## Technical stack
 
 This solutions uses Basic Python Flask and Redis DB. Following commands from Redis has been used to store and retrieve data.
 `SET, GET, ZADD, ZRANGEBYLEX`
@@ -24,7 +24,8 @@ This solutions uses Basic Python Flask and Redis DB. Following commands from Red
 fruits = ['apple','strawberry', 'orange', 'banana']
 vegetables = ['beetroot', 'celery', 'carrot', 'cucumber']
 ```
-##Setup
+
+## Setup
 
 - Server Setup
   - This application runs on Python 2.7
